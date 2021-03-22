@@ -1,0 +1,39 @@
+:root {
+  --minionprimary-color: #ffcc00;
+  --minionbackground: #fff5cc;
+}
+.containerMinion {
+  background-color: var(--minionbackground);
+}
+.bananaHeader {
+  font-family: cursive;
+  font-size: 3rem;
+  background-color: var(--minionprimary-color);
+}
+.bananaInput {
+  border: 2px solid black;
+  width: 50%;
+  font-family: cursive;
+  font-size: 1.5rem;
+}
+.minionOutput {
+  border: 2px solid black;
+  width: 50%;
+  margin: auto;
+  font-family: cursive;
+  font-size: 1.5rem;
+}
+.btn-outline-dark:hover {
+  border: 1px solid black;
+  background-color: var(--minionprimary-color);
+  color: black;
+  font-size: 1.4rem;
+}
+.minionAbout {
+  background-color: var(--minionprimary-color);
+  font-weight: lighter;
+  font-family: cursive;
+}
+.minionAbout:hover {
+  font-size: 2rem;
+}
