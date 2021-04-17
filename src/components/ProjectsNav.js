@@ -4,7 +4,7 @@ const ProjectsNav = () => {
   return (
     <div className="navbar-nav text-right bg-primary py-2">
       <div className="container">
-        <Link className="btn" to="/emoji">
+        <Link className="btn" to="/projects">
           emojiChecker
         </Link>
         <NavLink className="btn" to="/recipeBook">
