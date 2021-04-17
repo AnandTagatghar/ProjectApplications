@@ -9,7 +9,7 @@ const Projects = () => {
   return (
     <BrowserRouter>
       <ProjectsNav />
-      <Route exact path="/emoji" component={Emoji} />
+      <Route exact path="/projects" component={Emoji} />
       <Route path="/recipeBook" component={RecipeBook} />
       <Route path="/minion" component={Minion} />
     </BrowserRouter>
